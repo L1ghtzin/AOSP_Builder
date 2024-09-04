@@ -27,19 +27,19 @@ on:
       LOCAL_MANIFEST:
         description: "Personal local manifest [repository or raw]:"
         required: true
-        default: 'https://github.com/sounddrill31/local_manifests'
+        default: 'https://github.com/Dubai-Projects/local_manifest'
       LOCAL_MANIFEST_BRANCH:
         description: "Personal local manifest's branch:"
         required: false
-        default: 'twrp-oxygen-12.1'
+        default: 'twrp-dubai-12.1'
       DEVICE_NAME:
         description: "Device's codename:"
         required: true
-        default: "oxygen"
+        default: "dubai"
       PRODUCT_NAME:
         description: "Product to build:"
         required: true
-        default: "twrp_oxygen"
+        default: "dubai"
       BUILD_COMMAND:
         description: 'Command to be used for compiling:'
         required: true
@@ -367,7 +367,7 @@ jobs:
 
         # Set up build environment
         export BUILD_USERNAME=${{ github.actor }} ; \
-        export BUILD_HOSTNAME=crave ; \
+        export BUILD_HOSTNAME=Dubai-Projects ; \
         source build/envsetup.sh && \
 
         echo "Repository: ${{ github.repository }}"; \
