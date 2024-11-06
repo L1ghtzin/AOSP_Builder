@@ -176,6 +176,17 @@ Here, we enter our repo init command for a non-supported ROM. If we are building
 
 Doing this is not recommended and is known to be troublesome. However, it doesn't break any crave rules yet. 
 
+### Paid Queue
+
+To use your crave wallet with one of these projects, just set a secret called "PAID" without the quotes with any data(like "true")
+
+To know more about wallets, read this: 
+
+https://opendroid.pugzarecute.com/wiki/Crave_Devspace#paid-queue
+
+https://foss.crave.io/docs/wallets/
+
+
 ### Build Signing
 Q4. How do I sign my builds?
 
@@ -212,3 +223,13 @@ While building:
 ```
 mka target-files-package otatools; /opt/crave/crave_sign.sh
 ```
+
+## Star History
+
+<a href="https://star-history.com/#sounddrill31/crave_aosp_builder&Date">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=sounddrill31/crave_aosp_builder&type=Date&theme=dark" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=sounddrill31/crave_aosp_builder&type=Date" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=sounddrill31/crave_aosp_builder&type=Date" />
+ </picture>
+</a>
