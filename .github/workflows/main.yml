@@ -38,19 +38,19 @@ on:
       LOCAL_MANIFEST:
         description: "Personal local manifest [repository or raw]:"
         required: true
-        default: 'https://github.com/Dubai-Projects/local_manifest'
+        default: 'https://github.com/Bomb-Projects/local_manifests'
       LOCAL_MANIFEST_BRANCH:
         description: "Personal local manifest's branch:"
         required: false
-        default: '14.0'
+        default: '15.0-Ocean'
       DEVICE_NAME:
         description: "Device's codename:"
         required: true
-        default: "dubai"
+        default: "ocean"
       PRODUCT_NAME:
         description: "Product to build:"
         required: true
-        default: "dubai"
+        default: "ocean"
       BUILD_COMMAND:
         description: 'Command to be used for compiling:'
         required: true
